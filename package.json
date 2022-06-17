@@ -1,0 +1,21 @@
+{
+  "name": "flickr_backend",
+  "version": "1.0.0",
+  "description": "Flickr Clone",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "Ari",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  }
+}
