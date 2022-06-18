@@ -12,4 +12,4 @@ app.use(cors({ origin: true, credentials: true }));
 
 app.use(PhotosRoutes)
 
-app.listen(process.env.SERVER_PORT, () => {console.log('Server Running')});
+app.listen(process.env.SERVER_PORT|| 8080, () => {console.log('Server Running')});
