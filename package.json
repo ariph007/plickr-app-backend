@@ -16,6 +16,8 @@
     "axios": "^0.27.2",
     "cors": "latest",
     "dotenv": "^16.0.1",
-    "express": "latest"
+    "express": "latest",
+    "firebase-tools": "^11.1.0",
+    "g": "^2.0.1"
   }
 }
